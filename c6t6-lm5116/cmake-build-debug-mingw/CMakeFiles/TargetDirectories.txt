@@ -1,0 +1,3 @@
+D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw/CMakeFiles/c6t6-lm5116.elf.dir
+D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir

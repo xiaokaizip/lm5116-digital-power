@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="c6t6-lm5116"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c6t6-lm5116.elf">
+				<Option output="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw/c6t6-lm5116.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103x6"/>
+					<Add directory="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Inc"/>
+					<Add directory="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Include"/>
+					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 c6t6-lm5116.elf"/>
+					<CompileFile command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c6t6-lm5116.elf/fast">
+				<Option output="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw/c6t6-lm5116.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103x6"/>
+					<Add directory="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Inc"/>
+					<Add directory="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Include"/>
+					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 c6t6-lm5116.elf/fast"/>
+					<CompileFile command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/LearningRecord/lm5116 digital power/c6t6-lm5116/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Inc/adc.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Inc/control.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Inc/data_type_conversion.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Inc/delay.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Inc/dma.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Inc/filter.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Inc/gpio.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Inc/iic.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Inc/key.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Inc/main.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Inc/mcp41100.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Inc/oled.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Inc/printf.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Inc/spi.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Inc/stm32f1xx_it.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Inc/usart.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Src/adc.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Src/control.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Src/data_type_conversion.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Src/delay.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Src/dma.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Src/filter.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Src/gpio.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Src/iic.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Src/key.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Src/main.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Src/mcp41100.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Src/oled.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Src/printf.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Src/spi.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Src/stm32f1xx_it.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Src/syscalls.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Src/sysmem.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Src/system_stm32f1xx.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Src/usart.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Core/Startup/startup_stm32f103c6tx.s">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Device/ST/STM32F1xx/License.md">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/CMSIS/LICENSE.txt">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/License.md">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/STM32F103C6TX_FLASH.ld">
+			<Option target="c6t6-lm5116.elf"/>
+		</Unit>
+		<Unit filename="D:/LearningRecord/lm5116 digital power/c6t6-lm5116/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
