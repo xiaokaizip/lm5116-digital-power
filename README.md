@@ -38,7 +38,7 @@
 
 #### 一、数字电位器（MCP41100）
 
-- 数字电位器的配置如图所示：![image-20221010115826761](READMA.assets/image-20221010115826761.png)
+- 数字电位器的配置如图所示：![image-20221010115826761](README.assets/image-20221010115826761.png)
 
 没有用到DMA或是中断，需要的话后续再来给他加上。
 
@@ -145,7 +145,7 @@ void numTostring(float num, char str[10]) {
 
 #### 五、ADC电压采样
 
-- ADC的简单配置如下：![image-20221010191105675](READMA.assets/image-20221010191105675.png)
+- ADC的简单配置如下：![image-20221010191105675](README.assets/image-20221010191105675.png)
   - **Data Alignment**：选则有对齐
   - **Scan Conversion Mode：**此项选择扫描模式使能，代表15路ADC输入分别扫描，如果不使能，其只会读取一个输入的值。
   - **Contionous Conversion Mode:**此项选择连续扫描模式，表示将连续不断的对ADC的值进行转换，如果此项不使能，将会只采集一次就停止，直到下一次使能才继续进行一次AD转换。
@@ -154,7 +154,7 @@ void numTostring(float num, char str[10]) {
   - **Rank：**采样时间。
 - DMA的配置
 
-![image-20221010192447613](READMA.assets/image-20221010192447613.png)
+![image-20221010192447613](README.assets/image-20221010192447613.png)
 
 - 代码
 
